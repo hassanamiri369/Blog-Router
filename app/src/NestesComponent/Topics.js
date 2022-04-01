@@ -2,8 +2,7 @@ import React from 'react'
 import {Route,NavLink ,  useRouteMatch , useHistory, Link} from "react-router-dom"
 
 const FirstStep = () =>{
-  const history = useHistory()
-  const {url , path} = useRouteMatch()
+  
   return (
     <>
       <div>
