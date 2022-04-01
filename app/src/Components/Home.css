@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    /* background-color: blue; */
+    justify-content: center;
+}
+
+.nametag{
+    border : 1px solid rgb(223, 208, 208);
+    width: 300px;
+    border-radius: 4px;
+    padding: 20px;
+    margin : 20px;
+    /* transition: all 0.2s ease-in-out; */
+    z-index: 1;
+
+}
+
+.nametag:hover{
+    box-shadow: 0 0 10px gray;
+    border: none;
+}

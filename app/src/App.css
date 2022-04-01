@@ -1,0 +1,50 @@
+.App {
+  /* text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* display: flex; */
+  position: relative;
+
+}
+
+.containers{
+  display: flex;
+  
+}
+
+.content{
+  width: calc(100% - 5rem);
+  margin-left: 5rem;
+}
+
+.sotialLink{
+  /* background-color: aqua; */
+  width: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* height: 100vh; */
+  position: fixed;
+  /* top: 5rem; */
+  height :calc(100vh - 5rem);
+}
+
+.sotialLink span{
+  margin-bottom: 20px;
+  
+}
+
+.svg{
+  transition: all 0.3s ease-in;
+}
+
+.svg:hover{
+  /* background: blueviolet; */
+  cursor: pointer;
+}
